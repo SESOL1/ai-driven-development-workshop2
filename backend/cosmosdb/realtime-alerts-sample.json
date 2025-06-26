@@ -1,0 +1,167 @@
+[
+  {
+    "id": "realtime_alert_001",
+    "alertId": "AL-2024-001",
+    "equipmentId": 7,
+    "equipmentName": "エアコンプレッサ1",
+    "sensorId": 22,
+    "sensorType": "pressure",
+    "alertType": "threshold_exceeded",
+    "severity": "critical",
+    "currentValue": 1.15,
+    "thresholdValue": 1.2,
+    "unit": "MPa",
+    "message": "エアコンプレッサ1の圧力が危険レベルに達しました。即座に対応が必要です。",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "location": {
+      "area": "第1工場電気室",
+      "coordinates": {
+        "latitude": 35.6766,
+        "longitude": 139.6507
+      }
+    },
+    "status": "active",
+    "priority": 1,
+    "assignedTo": "tech01@factory.co.jp",
+    "escalationLevel": 2,
+    "metadata": {
+      "detectionMethod": "threshold_monitoring",
+      "previousValue": 1.05,
+      "trendDirection": "increasing",
+      "estimatedTimeToFailure": "15分",
+      "recommendedAction": "即座に設備を停止し、圧力調整弁を確認してください"
+    }
+  },
+  {
+    "id": "realtime_alert_002",
+    "alertId": "AL-2024-002",
+    "equipmentId": 5,
+    "equipmentName": "冷却ポンプ1",
+    "sensorId": 18,
+    "sensorType": "flow_rate",
+    "alertType": "performance_degradation",
+    "severity": "medium",
+    "currentValue": 65.8,
+    "thresholdValue": 70.0,
+    "unit": "L/min",
+    "message": "冷却ポンプ1の流量が基準値を下回っています。フィルターの確認をお願いします。",
+    "timestamp": "2024-12-19T09:30:00.000Z",
+    "location": {
+      "area": "第1工場冷却室",
+      "coordinates": {
+        "latitude": 35.6765,
+        "longitude": 139.6506
+      }
+    },
+    "status": "acknowledged",
+    "priority": 3,
+    "assignedTo": "tech02@factory.co.jp",
+    "escalationLevel": 1,
+    "metadata": {
+      "detectionMethod": "trend_analysis",
+      "previousValue": 72.5,
+      "trendDirection": "decreasing",
+      "estimatedTimeToFailure": "2時間",
+      "recommendedAction": "フィルターの清掃または交換を推奨します"
+    }
+  },
+  {
+    "id": "realtime_alert_003",
+    "alertId": "AL-2024-003",
+    "equipmentId": 2,
+    "equipmentName": "生産ライン2号機",
+    "sensorId": 6,
+    "sensorType": "vibration",
+    "alertType": "anomaly_detection",
+    "severity": "high",
+    "currentValue": 12.8,
+    "thresholdValue": 15.0,
+    "unit": "mm/s",
+    "message": "生産ライン2号機で異常振動パターンを検知しました。ベアリングの状態を確認してください。",
+    "timestamp": "2024-12-19T09:00:00.000Z",
+    "location": {
+      "area": "第1工場B区域",
+      "coordinates": {
+        "latitude": 35.6763,
+        "longitude": 139.6504
+      }
+    },
+    "status": "acknowledged",
+    "priority": 2,
+    "assignedTo": "tech01@factory.co.jp",
+    "escalationLevel": 1,
+    "metadata": {
+      "detectionMethod": "machine_learning",
+      "previousValue": 8.2,
+      "trendDirection": "increasing",
+      "estimatedTimeToFailure": "4時間",
+      "recommendedAction": "設備を停止し、ベアリングの潤滑状態を確認してください"
+    }
+  },
+  {
+    "id": "realtime_alert_004",
+    "alertId": "AL-2024-004",
+    "equipmentId": 9,
+    "equipmentName": "包装機械1",
+    "sensorId": 27,
+    "sensorType": "speed",
+    "alertType": "efficiency_decline",
+    "severity": "low",
+    "currentValue": 185,
+    "thresholdValue": 200,
+    "unit": "pcs/min",
+    "message": "包装機械1の処理速度が標準値を下回っています。調整が必要です。",
+    "timestamp": "2024-12-19T08:45:00.000Z",
+    "location": {
+      "area": "第1工場包装区域",
+      "coordinates": {
+        "latitude": 35.6768,
+        "longitude": 139.6509
+      }
+    },
+    "status": "resolved",
+    "priority": 4,
+    "assignedTo": "operator01@factory.co.jp",
+    "escalationLevel": 0,
+    "metadata": {
+      "detectionMethod": "performance_monitoring",
+      "previousValue": 220,
+      "trendDirection": "decreasing",
+      "estimatedTimeToFailure": "24時間",
+      "recommendedAction": "速度調整とメンテナンススケジュールの確認"
+    }
+  },
+  {
+    "id": "realtime_alert_005",
+    "alertId": "AL-2024-005",
+    "equipmentId": 1,
+    "equipmentName": "生産ライン1号機",
+    "sensorId": 1,
+    "sensorType": "temperature",
+    "alertType": "threshold_exceeded",
+    "severity": "medium",
+    "currentValue": 75.8,
+    "thresholdValue": 80.0,
+    "unit": "℃",
+    "message": "生産ライン1号機の温度が高めです。冷却システムの確認をお願いします。",
+    "timestamp": "2024-12-19T08:00:00.000Z",
+    "location": {
+      "area": "第1工場A区域",
+      "coordinates": {
+        "latitude": 35.6762,
+        "longitude": 139.6503
+      }
+    },
+    "status": "resolved",
+    "priority": 3,
+    "assignedTo": "tech02@factory.co.jp",
+    "escalationLevel": 1,
+    "metadata": {
+      "detectionMethod": "threshold_monitoring",
+      "previousValue": 68.2,
+      "trendDirection": "increasing",
+      "estimatedTimeToFailure": "1時間",
+      "recommendedAction": "冷却システムの点検と設定温度の調整"
+    }
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "sensor_data_001",
+    "sensorId": 1,
+    "equipmentId": 1,
+    "sensorType": "temperature",
+    "value": 45.2,
+    "unit": "℃",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "生産ライン1号機",
+      "area": "第1工場A区域",
+      "coordinates": {
+        "latitude": 35.6762,
+        "longitude": 139.6503
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-11-15T00:00:00.000Z",
+      "threshold": {
+        "min": 10.0,
+        "max": 80.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_002",
+    "sensorId": 2,
+    "equipmentId": 1,
+    "sensorType": "vibration",
+    "value": 8.5,
+    "unit": "mm/s",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "生産ライン1号機",
+      "area": "第1工場A区域",
+      "coordinates": {
+        "latitude": 35.6762,
+        "longitude": 139.6503
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-11-15T00:00:00.000Z",
+      "threshold": {
+        "min": 0.1,
+        "max": 15.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_003",
+    "sensorId": 3,
+    "equipmentId": 1,
+    "sensorType": "current",
+    "value": 25.3,
+    "unit": "A",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "生産ライン1号機",
+      "area": "第1工場A区域",
+      "coordinates": {
+        "latitude": 35.6762,
+        "longitude": 139.6503
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-11-15T00:00:00.000Z",
+      "threshold": {
+        "min": 5.0,
+        "max": 50.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_004",
+    "sensorId": 4,
+    "equipmentId": 1,
+    "sensorType": "operational_status",
+    "value": 1,
+    "unit": "boolean",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "operational",
+    "location": {
+      "equipmentName": "生産ライン1号機",
+      "area": "第1工場A区域",
+      "coordinates": {
+        "latitude": 35.6762,
+        "longitude": 139.6503
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-11-15T00:00:00.000Z",
+      "threshold": {
+        "min": 0,
+        "max": 1
+      }
+    }
+  },
+  {
+    "id": "sensor_data_005",
+    "sensorId": 5,
+    "equipmentId": 2,
+    "sensorType": "temperature",
+    "value": 52.1,
+    "unit": "℃",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "生産ライン2号機",
+      "area": "第1工場B区域",
+      "coordinates": {
+        "latitude": 35.6763,
+        "longitude": 139.6504
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-11-15T00:00:00.000Z",
+      "threshold": {
+        "min": 10.0,
+        "max": 80.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_006",
+    "sensorId": 6,
+    "equipmentId": 2,
+    "sensorType": "vibration",
+    "value": 12.8,
+    "unit": "mm/s",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "warning",
+    "location": {
+      "equipmentName": "生産ライン2号機",
+      "area": "第1工場B区域",
+      "coordinates": {
+        "latitude": 35.6763,
+        "longitude": 139.6504
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-11-15T00:00:00.000Z",
+      "threshold": {
+        "min": 0.1,
+        "max": 15.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_007",
+    "sensorId": 9,
+    "equipmentId": 3,
+    "sensorType": "speed",
+    "value": 18.5,
+    "unit": "m/min",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "搬送コンベア1",
+      "area": "第1工場中央通路",
+      "coordinates": {
+        "latitude": 35.6764,
+        "longitude": 139.6505
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-11-10T00:00:00.000Z",
+      "threshold": {
+        "min": 1.0,
+        "max": 30.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_008",
+    "sensorId": 16,
+    "equipmentId": 5,
+    "sensorType": "temperature",
+    "value": 15.2,
+    "unit": "℃",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "冷却ポンプ1",
+      "area": "第1工場冷却室",
+      "coordinates": {
+        "latitude": 35.6765,
+        "longitude": 139.6506
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-11-05T00:00:00.000Z",
+      "threshold": {
+        "min": 5.0,
+        "max": 40.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_009",
+    "sensorId": 17,
+    "equipmentId": 5,
+    "sensorType": "pressure",
+    "value": 0.45,
+    "unit": "MPa",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "冷却ポンプ1",
+      "area": "第1工場冷却室",
+      "coordinates": {
+        "latitude": 35.6765,
+        "longitude": 139.6506
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-11-05T00:00:00.000Z",
+      "threshold": {
+        "min": 0.1,
+        "max": 0.8
+      }
+    }
+  },
+  {
+    "id": "sensor_data_010",
+    "sensorId": 18,
+    "equipmentId": 5,
+    "sensorType": "flow_rate",
+    "value": 65.8,
+    "unit": "L/min",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "low",
+    "location": {
+      "equipmentName": "冷却ポンプ1",
+      "area": "第1工場冷却室",
+      "coordinates": {
+        "latitude": 35.6765,
+        "longitude": 139.6506
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-11-05T00:00:00.000Z",
+      "threshold": {
+        "min": 10.0,
+        "max": 100.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_011",
+    "sensorId": 22,
+    "equipmentId": 7,
+    "sensorType": "pressure",
+    "value": 1.15,
+    "unit": "MPa",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "critical",
+    "location": {
+      "equipmentName": "エアコンプレッサ1",
+      "area": "第1工場電気室",
+      "coordinates": {
+        "latitude": 35.6766,
+        "longitude": 139.6507
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-12-01T00:00:00.000Z",
+      "threshold": {
+        "min": 0.5,
+        "max": 1.2
+      }
+    }
+  },
+  {
+    "id": "sensor_data_012",
+    "sensorId": 23,
+    "equipmentId": 7,
+    "sensorType": "temperature",
+    "value": 78.9,
+    "unit": "℃",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "エアコンプレッサ1",
+      "area": "第1工場電気室",
+      "coordinates": {
+        "latitude": 35.6766,
+        "longitude": 139.6507
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-12-01T00:00:00.000Z",
+      "threshold": {
+        "min": 15.0,
+        "max": 90.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_013",
+    "sensorId": 29,
+    "equipmentId": 10,
+    "sensorType": "ph",
+    "value": 7.2,
+    "unit": "pH",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "廃水処理装置",
+      "area": "第1工場処理施設",
+      "coordinates": {
+        "latitude": 35.6767,
+        "longitude": 139.6508
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-10-15T00:00:00.000Z",
+      "threshold": {
+        "min": 6.0,
+        "max": 8.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_014",
+    "sensorId": 30,
+    "equipmentId": 10,
+    "sensorType": "turbidity",
+    "value": 3.5,
+    "unit": "NTU",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "廃水処理装置",
+      "area": "第1工場処理施設",
+      "coordinates": {
+        "latitude": 35.6767,
+        "longitude": 139.6508
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-10-15T00:00:00.000Z",
+      "threshold": {
+        "min": 0,
+        "max": 10.0
+      }
+    }
+  },
+  {
+    "id": "sensor_data_015",
+    "sensorId": 31,
+    "equipmentId": 10,
+    "sensorType": "flow_rate",
+    "value": 285.6,
+    "unit": "L/min",
+    "timestamp": "2024-12-19T10:00:00.000Z",
+    "status": "normal",
+    "location": {
+      "equipmentName": "廃水処理装置",
+      "area": "第1工場処理施設",
+      "coordinates": {
+        "latitude": 35.6767,
+        "longitude": 139.6508
+      }
+    },
+    "metadata": {
+      "quality": "good",
+      "calibrationDate": "2024-10-15T00:00:00.000Z",
+      "threshold": {
+        "min": 50.0,
+        "max": 500.0
+      }
+    }
+  }
+]
