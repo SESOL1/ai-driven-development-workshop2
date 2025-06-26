@@ -1,0 +1,296 @@
+{
+  "systemStats": {
+    "totalEquipment": 24,
+    "activeEquipment": 21,
+    "alertCount": 3,
+    "efficiency": 87.5,
+    "lastUpdated": "2024-12-19T10:30:00Z"
+  },
+  "equipmentData": [
+    {
+      "id": "EQ001",
+      "name": "プレス機 #1",
+      "type": "プレス機",
+      "location": "エリアA-1",
+      "area": "A",
+      "status": "running",
+      "operatingHours": 7.5,
+      "totalOperatingHours": 15420,
+      "efficiency": 92.5,
+      "manufacturer": "YAMADA製作所",
+      "model": "YP-3000",
+      "installationDate": "2020-03-15",
+      "lastMaintenance": "2024-12-10",
+      "sensors": {
+        "temperature": {
+          "value": 45.2,
+          "unit": "℃",
+          "status": "normal",
+          "threshold": {"min": 20, "max": 60}
+        },
+        "vibration": {
+          "value": 0.8,
+          "unit": "mm/s",
+          "status": "normal",
+          "threshold": {"min": 0, "max": 2.0}
+        },
+        "current": {
+          "value": 15.2,
+          "unit": "A",
+          "status": "normal",
+          "threshold": {"min": 5, "max": 20}
+        }
+      }
+    },
+    {
+      "id": "EQ002",
+      "name": "プレス機 #2",
+      "type": "プレス機",
+      "location": "エリアA-2",
+      "area": "A",
+      "status": "warning",
+      "operatingHours": 8.2,
+      "totalOperatingHours": 18330,
+      "efficiency": 88.1,
+      "manufacturer": "YAMADA製作所",
+      "model": "YP-3000",
+      "installationDate": "2019-08-22",
+      "lastMaintenance": "2023-11-15",
+      "sensors": {
+        "temperature": {
+          "value": 68.5,
+          "unit": "℃",
+          "status": "warning",
+          "threshold": {"min": 20, "max": 60}
+        },
+        "vibration": {
+          "value": 1.2,
+          "unit": "mm/s",
+          "status": "normal",
+          "threshold": {"min": 0, "max": 2.0}
+        },
+        "current": {
+          "value": 17.8,
+          "unit": "A",
+          "status": "normal",
+          "threshold": {"min": 5, "max": 20}
+        }
+      },
+      "alerts": [
+        {
+          "id": "A001",
+          "message": "温度が基準値を超えています",
+          "severity": "warning",
+          "timestamp": "2024-12-19T09:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "EQ003",
+      "name": "コンベア #A1",
+      "type": "コンベア",
+      "location": "エリアA-コンベア",
+      "area": "A",
+      "status": "running",
+      "operatingHours": 8.0,
+      "totalOperatingHours": 22150,
+      "efficiency": 95.2,
+      "manufacturer": "SUZUKI機械",
+      "model": "SC-1200",
+      "installationDate": "2018-06-10",
+      "lastMaintenance": "2024-12-05",
+      "sensors": {
+        "speed": {
+          "value": 1.2,
+          "unit": "m/s",
+          "status": "normal",
+          "threshold": {"min": 0.5, "max": 2.0}
+        },
+        "current": {
+          "value": 8.5,
+          "unit": "A",
+          "status": "normal",
+          "threshold": {"min": 3, "max": 15}
+        }
+      }
+    },
+    {
+      "id": "EQ004",
+      "name": "ボイラー #1",
+      "type": "ボイラー",
+      "location": "エリアB-ユーティリティ",
+      "area": "B",
+      "status": "running",
+      "operatingHours": 24.0,
+      "totalOperatingHours": 35200,
+      "efficiency": 89.7,
+      "manufacturer": "TANAKA工業",
+      "model": "TB-5000",
+      "installationDate": "2017-03-01",
+      "lastMaintenance": "2024-11-20",
+      "sensors": {
+        "temperature": {
+          "value": 85.2,
+          "unit": "℃",
+          "status": "normal",
+          "threshold": {"min": 70, "max": 95}
+        },
+        "pressure": {
+          "value": 0.7,
+          "unit": "MPa",
+          "status": "normal",
+          "threshold": {"min": 0.3, "max": 1.0}
+        }
+      }
+    },
+    {
+      "id": "EQ005",
+      "name": "エアコンプレッサー #1",
+      "type": "コンプレッサー",
+      "location": "エリアC-ユーティリティ",
+      "area": "C",
+      "status": "error",
+      "operatingHours": 2.1,
+      "totalOperatingHours": 28900,
+      "efficiency": 45.2,
+      "manufacturer": "SATO機器",
+      "model": "AC-800",
+      "installationDate": "2019-01-20",
+      "lastMaintenance": "2024-10-15",
+      "sensors": {
+        "pressure": {
+          "value": 0.2,
+          "unit": "MPa",
+          "status": "error",
+          "threshold": {"min": 0.6, "max": 0.8}
+        },
+        "temperature": {
+          "value": 92.1,
+          "unit": "℃",
+          "status": "error",
+          "threshold": {"min": 40, "max": 80}
+        }
+      },
+      "alerts": [
+        {
+          "id": "A002",
+          "message": "吐出圧力が異常に低下しています",
+          "severity": "error",
+          "timestamp": "2024-12-19T10:25:00Z"
+        },
+        {
+          "id": "A003",
+          "message": "温度が異常に上昇しています",
+          "severity": "error",
+          "timestamp": "2024-12-19T10:23:00Z"
+        }
+      ]
+    },
+    {
+      "id": "EQ006",
+      "name": "ポンプ #3",
+      "type": "ポンプ",
+      "location": "エリアB-給水設備",
+      "area": "B",
+      "status": "stopped",
+      "operatingHours": 0,
+      "totalOperatingHours": 19850,
+      "efficiency": 0,
+      "manufacturer": "WATANABE水機",
+      "model": "WP-200",
+      "installationDate": "2020-07-05",
+      "lastMaintenance": "2024-12-18",
+      "sensors": {
+        "flow": {
+          "value": 0,
+          "unit": "L/min",
+          "status": "stopped",
+          "threshold": {"min": 50, "max": 200}
+        },
+        "pressure": {
+          "value": 0,
+          "unit": "kPa",
+          "status": "stopped",
+          "threshold": {"min": 100, "max": 500}
+        }
+      }
+    }
+  ],
+  "recentAlerts": [
+    {
+      "id": "A001",
+      "equipmentId": "EQ002",
+      "equipmentName": "プレス機 #2",
+      "message": "温度が基準値を超えています",
+      "severity": "warning",
+      "timestamp": "2024-12-19T09:45:00Z",
+      "status": "active"
+    },
+    {
+      "id": "A002",
+      "equipmentId": "EQ005",
+      "equipmentName": "エアコンプレッサー #1",
+      "message": "吐出圧力が異常に低下しています",
+      "severity": "error",
+      "timestamp": "2024-12-19T10:25:00Z",
+      "status": "active"
+    },
+    {
+      "id": "A003",
+      "equipmentId": "EQ005",
+      "equipmentName": "エアコンプレッサー #1",
+      "message": "温度が異常に上昇しています",
+      "severity": "error",
+      "timestamp": "2024-12-19T10:23:00Z",
+      "status": "active"
+    }
+  ],
+  "maintenanceSchedule": [
+    {
+      "id": "M001",
+      "equipmentId": "EQ004",
+      "equipmentName": "ボイラー #1",
+      "type": "定期点検",
+      "scheduledDate": "2024-12-19",
+      "scheduledTime": "10:00",
+      "estimatedDuration": "2時間",
+      "assignedTechnician": "田中技師",
+      "status": "scheduled"
+    },
+    {
+      "id": "M002",
+      "equipmentId": "EQ005",
+      "equipmentName": "エアコンプレッサー #1",
+      "type": "緊急修理",
+      "scheduledDate": "2024-12-19",
+      "scheduledTime": "11:00",
+      "estimatedDuration": "4時間",
+      "assignedTechnician": "佐藤技師",
+      "status": "urgent"
+    },
+    {
+      "id": "M003",
+      "equipmentId": "EQ003",
+      "equipmentName": "コンベア #A1",
+      "type": "フィルター交換",
+      "scheduledDate": "2024-12-19",
+      "scheduledTime": "14:00",
+      "estimatedDuration": "1時間",
+      "assignedTechnician": "鈴木技師",
+      "status": "scheduled"
+    }
+  ],
+  "productionData": {
+    "todayProduction": {
+      "planned": 1000,
+      "actual": 875,
+      "efficiency": 87.5
+    },
+    "hourlyEfficiency": [85, 87, 90, 88, 92, 89, 85, 91, 88, 86, 89, 92],
+    "areaStatus": {
+      "A": {"equipmentCount": 3, "runningCount": 2, "efficiency": 91.9},
+      "B": {"equipmentCount": 2, "runningCount": 1, "efficiency": 89.7},
+      "C": {"equipmentCount": 1, "runningCount": 0, "efficiency": 45.2}
+    }
+  }
+}
